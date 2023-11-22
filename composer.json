@@ -1,0 +1,22 @@
+{
+    "name": "zeryel/symfony-jsonrpc-bundle",
+    "type": "symfony-bundle",
+    "description": "JsonRpc Symfony bundle",
+    "keywords": ["jsonrpc"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zeryel\\JsonRpcBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zeryel\\JsonRpcBundle\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+    }
+}
